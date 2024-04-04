@@ -4,19 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
   </head>
   <body>
     <header>
       <h1>My Portfolio</h1>
       <hr />
+      <nav>
+        <ul>
+          <li><a href="#About-me"> About Me</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#My-skills">My Skills</a></li>
+          <li><a href="#Daily-tasks">Daily Tasks</a></li>
+          <li><a href="#Sasta-starbucks">Sasta Starbucks</a></li>
+        </ul>
+      </nav>
     </header>
-    <div>
+    <main>
+      <section id="About-me">
       <h2>About Me</h2>
       <p>
         Welcome to my portfolio website! I'm passionate about web development
         and excited to showcase my projects here.
       </p>
-
+    </section>
+    <section id="Projects">
       <h2>My Projects</h2>
       <!-- <img width ="100%"
         srcset="
@@ -40,6 +53,8 @@
         width="200px"
         alt="boy"
       />
+    </section>
+    <section id="My-skills">
       <h2>My Skills</h2>
       <ul>
         <li>HTML</li>
@@ -49,7 +64,8 @@
         <li>Mobile Application Development</li>
       </ul>
       <br /><br /><br />
-
+    </section>
+    <article id="Daily-tasks">
       <table border="">
         <caption>
           My Day2's tasks
@@ -83,15 +99,20 @@
           </tr>
         </tfoot>
       </table>
-
+    </article>
+    <section id="Sasta-starbucks">
       <h2>Feeling sleepy? Wanna grab of Coffee!</h2>
       <a target ="_blank" href="/buyMeACoffee.html">Sasta Starbucks</a>
-
+    </section>
+    </main>
+    <footer>
       <h2>Contact Me</h2>
       <p>
         Feel free to reach out to me at Twitter
         <a target="_blank" href="https://twitter.com/BelieveToCode"><img width="50px" src="/images/twitter-x-seeklogo-3.svg"/></a>
       </p>
-    </div>
+      <br>
+      <a href="#top">Go to Top</a>
+    </footer>
   </body>
 </html>
