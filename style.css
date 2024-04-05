@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 body{
     background-color: #9290C3;
 }
@@ -5,11 +7,37 @@ h1{
     color:#070F2B
 }
 p{
-    color:white;
+    color:rgb(255, 255, 255);
     font-family:cursive;
     font-size: 24px;
 }
 h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#1B1A55
+}
+.main-heading{
+    text-align: center;
+    text-transform:capitalize;
+    text-shadow: turquoise 1px 2px 3px;
+    font-family: "MedievalSharp", cursive;
+}
+.nav-bar>li{
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    width:18rem;
+    border: 3px solid black;
+}
+.nav-bar>li:hover{
+    font-size: 3rem;
+    color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    /* 0 0 21px #fff,
+    0 0 42px turquoise, */
+    0 0 82px turquoise,
+    0 0 92px turquoise,
+    0 0 102px turquoise,
+    0 0 151px turquoise;
 }
