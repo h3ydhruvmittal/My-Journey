@@ -1,0 +1,27 @@
+@font-face {
+    font-family: SoDoSans_Regular;
+    src: url('/fonts/SoDoSans-Regular.ttf') format('truetype')
+}
+@font-face {
+    font-family: SoDoSans_Bold;
+    src: url('/fonts/SoDoSans-Bold.ttf') format('truetype')
+}
+@font-face {
+    font-family: SoDoSans_Light;
+    src: url('/fonts/SoDoSans-Light.ttf') format('truetype')
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label{
+    display: block;
+    font-family: SoDoSans_Light;
+    color:#000;
+    opacity: 87;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
