@@ -1,4 +1,7 @@
-let a=5;
-let b=34;
+const calculate = (a,b,operation)=>{
+    return operation(a,b);
+};
 
-console.log("a + b: ", a+b);
+const result = calculate(5,6,(num1,num2)=>num1+num2);
+
+console.log(result);
